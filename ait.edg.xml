@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="C:\Program Files (x86)\DLR\Sumo\data\xsd\edges_file.xsd">
+    <edge id="D12" from="1" to="2" type="1lane"/>		
+	<edge id="D21" from="2" to="1" type="1lane"/>
+		
+	
+	<edge id="D23" from="2" to="3" type="1lane"/>
+	<edge id="D32" from="3" to="2" type="1lane"/>
+    
+	<edge id="D34" from="3" to="4" type="1lane"/>
+	<edge id="D43" from="4" to="3" type="1lane"/>
+	
+	<edge id="D56" from="5" to="6" type="1lane"/>
+	<edge id="D65" from="6" to="5" type="1lane"/>
+	
+	<edge id="D67" from="6" to="7" type="1lane"/>
+	<edge id="D76" from="7" to="6" type="1lane"/>
+	
+	<edge id="D78" from="7" to="8" type="1lane"/>
+	<edge id="D87" from="8" to="7" type="1lane"/>
+	
+	<edge id="D89" from="8" to="9" type="1lane"/>
+	<edge id="D98" from="9" to="8" type="1lane"/>
+	
+	<edge id="D910" from="9" to="10" type="1lane"/>
+	<edge id="D109" from="10" to="9" type="1lane"/>
+	
+	<edge id="D1011" from="10" to="11" type="1lane"/>
+	<edge id="D1110" from="11" to="10" type="1lane"/>
+	
+	<edge id="D1112" from="11" to="12" type="1lane"/>
+	<edge id="D1211" from="12" to="11" type="1lane"/>
+	
+	<edge id="D29" from="2" to="9" type="1lane"/>
+	<edge id="D92" from="9" to="2" type="1lane"/>
+	
+	<edge id="D312" from="3" to="12" type="1lane"/>
+	<edge id="D123" from="12" to="3" type="1lane"/>
+	
+	<edge id="D513" from="5" to="13" type="1lane"/>
+	<edge id="D135" from="13" to="5" type="1lane"/>
+	
+	<edge id="D614" from="6" to="14" type="1lane"/>
+	<edge id="D146" from="14" to="6" type="1lane"/>
+	
+	<edge id="D715" from="7" to="15" type="1lane"/>
+	<edge id="D157" from="15" to="7" type="1lane"/>
+	
+	<edge id="D816" from="8" to="16" type="1lane"/>
+	<edge id="D168" from="16" to="8" type="1lane"/>
+	
+	<edge id="D927" from="9" to="27" type="1lane"/>
+	<edge id="D279" from="27" to="9" type="1lane"/>
+	
+	<edge id="D1021" from="10" to="21" type="1lane"/>
+	<edge id="D2110" from="21" to="10" type="1lane"/>
+	
+	<edge id="D1117" from="11" to="17" type="1lane"/>
+	<edge id="D1711" from="17" to="11" type="1lane"/>
+	
+	<edge id="D1218" from="12" to="18" type="1lane"/>
+	<edge id="D1812" from="18" to="12" type="1lane"/>
+	
+	<edge id="D1314" from="13" to="14" type="1lane"/>
+	<edge id="D1413" from="14" to="13" type="1lane"/>
+	
+	<edge id="D1415" from="14" to="15" type="1lane"/>
+	<edge id="D1514" from="15" to="14" type="1lane"/>
+	
+	<edge id="D1516" from="15" to="16" type="1lane"/>
+	<edge id="D1615" from="16" to="15" type="1lane"/>
+	
+	<edge id="D1718" from="17" to="18" type="1lane"/>
+	<edge id="D1817" from="18" to="17" type="1lane"/>
+	
+	<edge id="D1319" from="13" to="19" type="1lane"/>
+	<edge id="D1913" from="19" to="13" type="1lane"/>
+	
+	<edge id="D1620" from="16" to="20" type="1lane"/>
+	<edge id="D2016" from="20" to="16" type="1lane"/>
+	
+	<edge id="D1722" from="17" to="22" type="1lane"/>
+	<edge id="D2217" from="22" to="17" type="1lane"/>
+	
+	<edge id="D1823" from="18" to="23" type="1lane"/>
+	<edge id="D2318" from="23" to="18" type="1lane"/>
+	
+	<edge id="D1920" from="19" to="20" type="1lane"/>
+	<edge id="D2019" from="20" to="19" type="1lane"/>
+	
+	<edge id="D2122" from="21" to="22" type="1lane"/>
+	<edge id="D2221" from="22" to="21" type="1lane"/>
+	
+	<edge id="D2223" from="22" to="23" type="1lane"/>
+	<edge id="D2322" from="23" to="22" type="1lane"/>
+	
+	<edge id="D2324" from="23" to="24" type="1lane"/>
+	<edge id="D2423" from="24" to="23" type="1lane"/>
+	
+	<edge id="D2026" from="20" to="26" type="1lane"/>
+	<edge id="D2620" from="26" to="20" type="1lane"/>
+	
+	<edge id="D2128" from="21" to="28" type="1lane"/>
+	<edge id="D2821" from="28" to="21" type="1lane"/>
+	
+	<edge id="D2526" from="25" to="26" type="1lane"/>
+	<edge id="D2625" from="26" to="25" type="1lane"/>
+	
+	<edge id="D2627" from="26" to="27" type="1lane"/>
+	<edge id="D2726" from="27" to="26" type="1lane"/>
+	
+	<edge id="D2728" from="27" to="28" type="1lane"/>
+	<edge id="D2827" from="28" to="27" type="1lane"/>
+	
+	<edge id="D2829" from="28" to="29" type="1lane"/>
+	<edge id="D2928" from="29" to="28" type="1lane"/>
+	
+	<edge id="D429" from="4" to="29" type="1lane"/>
+	<edge id="D294" from="29" to="4" type="1lane"/>
+	
+	<edge id="D4_4a" from="4" to="4a" type="1lane"/>
+	<edge id="D2929a" from="29" to="29a" type="1lane"/>
+	
+	<edge id="D4a_4" from="4a" to="4" type="1lane"/>
+	<edge id="D29a29" from="29a" to="29" type="1lane"/>
+	
+</edges>

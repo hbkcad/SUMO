@@ -1,0 +1,102 @@
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/additional_file.xsd">
+        <!--
+		Pick up points for Vehicle 1.
+	-->
+	<busStop id="s11" lane="D12_0" startPos="20" endPos="20" lines="Stop1" friendlyPos="true"/>
+	<busStop id="s12" lane="D87_0" startPos="10" endPos="15" lines="Stop2" friendlyPos="true"/>
+	<busStop id="s13" lane="D715_0" startPos="10" endPos="15" lines="Stop3" friendlyPos="true"/>	
+	<busStop id="s14" lane="D1514_0" startPos="10" endPos="5" lines="Stop4" friendlyPos="true"/>
+	<busStop id="s15" lane="D146_0" startPos="35" endPos="40" lines="Stop5" friendlyPos="true"/>
+	<busStop id="s16" lane="D513_0" startPos="35" endPos="40" lines="Stop6" friendlyPos="true"/>
+	<busStop id="s17" lane="D1319_0" startPos="55" endPos="65" lines="Stop7" friendlyPos="true"/>
+	
+	<busStop id="s19" lane="D1920_0" startPos="35" endPos="40" lines="Stop9" friendlyPos="true"/>
+	<busStop id="s110" lane="D2026_0" startPos="85" endPos="90" lines="Stop10" friendlyPos="true"/>
+	<busStop id="s111" lane="D168_0" startPos="35" endPos="40" lines="Stop11" friendlyPos="true"/>
+	
+	<!--
+		Pick up points for Vehicle 2.
+	-->
+	<busStop id="s21" lane="D312_0" startPos="20" endPos="20" lines="Stop1" friendlyPos="true"/>
+	<busStop id="s22" lane="D1218_0" startPos="10" endPos="10" lines="Stop2" friendlyPos="true"/>
+	<busStop id="s23" lane="D1817_0" startPos="10" endPos="15" lines="Stop3" friendlyPos="true"/>	
+	<busStop id="s24" lane="D1711_0" startPos="10" endPos="5" lines="Stop4" friendlyPos="true"/>
+	<busStop id="s25" lane="D910_0" startPos="35" endPos="40" lines="Stop5" friendlyPos="true"/>
+	<busStop id="s26" lane="D1021_0" startPos="35" endPos="40" lines="Stop6" friendlyPos="true"/>
+	<busStop id="s27" lane="D2821_0" startPos="55" endPos="65" lines="Stop7" friendlyPos="true"/>
+	<busStop id="s28" lane="D2122_0" startPos="10" endPos="10" lines="Stop8" friendlyPos="true"/>
+	<busStop id="s29" lane="D2423_0" startPos="35" endPos="40" lines="Stop9" friendlyPos="true"/>
+	
+	<!--
+		Pick up points for Vehicle 3.
+	-->
+	<busStop id="s31" lane="D32_0" startPos="120" endPos="120" lines="Stop1" friendlyPos="true"/>
+	<busStop id="s32" lane="D927_0" startPos="10" endPos="10" lines="Stop2" friendlyPos="true"/>
+	<busStop id="s33" lane="D927_0" startPos="35" endPos="35" lines="Stop3" friendlyPos="true"/>	
+	<busStop id="s34" lane="D927_0" startPos="55" endPos="55" lines="Stop4" friendlyPos="true"/>
+	<busStop id="s35" lane="D2625_0" startPos="25" endPos="25" lines="Stop5" friendlyPos="true"/>
+	<busStop id="s36" lane="D2526_0" startPos="45" endPos="45" lines="Stop6" friendlyPos="true"/>
+	<busStop id="s37" lane="D2627_0" startPos="85" endPos="85" lines="Stop7" friendlyPos="true"/>
+	<busStop id="s38" lane="D2829_0" startPos="150" endPos="150" lines="Stop8" friendlyPos="true"/>
+	<busStop id="s39" lane="D2928_0" startPos="180" endPos="180" lines="Stop9" friendlyPos="true"/>
+		
+	<vType id="truck/trailer" accel="2.6" decel="4.5" sigma="0" length="7" minGap="3" maxSpeed="70" imgFile="t.png"/>
+
+        
+    <vehicle id="GC1" type="truck/trailer" depart="0">
+        <route edges="D12 D29 D98 D87 D715 D1514 D146 D65 D513 D1319 D1920 D2026 D2620 D2016 D168 D89 D92 D21"/>
+        <param key="has.btsender.device" value="true"/>
+        <stop busStop="s11" duration="381"/>
+        <stop busStop="s12" duration="202"/>
+        <stop busStop="s13" duration="421"/>
+        <stop busStop="s14" duration="483"/>
+        <stop busStop="s15" duration="208"/>
+        <stop busStop="s16" duration="684"/>
+        <stop busStop="s17" duration="498"/>
+        
+        <stop busStop="s19" duration="499"/>
+        <stop busStop="s110" duration="486"/>
+        <stop busStop="s111" duration="294"/>
+    </vehicle>
+    
+        
+    <vehicle id="GC2" type="truck/trailer" depart="0">
+	<route edges="D43 D312 D1218 D1817 D1711 D1110 D109 D910 D1021 D2128 D2821 D2122 D2223 D2324 D2423 D2318 D1812 D123 D34" />
+	<param key="has.btreiver.device" value="true"/>
+	<stop busStop="s21" duration="402"/>
+	<stop busStop="s22" duration="506"/>
+	<stop busStop="s23" duration="543"/>
+	<stop busStop="s24" duration="337"/>
+	<stop busStop="s25" duration="200"/>
+	<stop busStop="s26" duration="0"/>
+	<stop busStop="s27" duration="455"/>
+	<stop busStop="s28" duration="248"/>
+	<stop busStop="s29" duration="324"/>	
+    </vehicle>
+	
+        
+    <vehicle id="GC3" type="truck/trailer" depart="0">
+	<route edges="D43 D32 D29 D927 D2726 D2625 D2526 D2627 D2728 D2829 D2928 D2827 D279 D92 D23 D34" />
+	<param key="has.btsender.device" value="true"/>
+	<stop busStop="s31" duration="228"/>
+	<stop busStop="s32" duration="236"/>
+	<stop busStop="s33" duration="578"/>
+	<stop busStop="s34" duration="287"/>
+	<stop busStop="s35" duration="287"/>
+	<stop busStop="s36" duration="900"/>
+        <stop busStop="s37" duration="705"/>
+	<stop busStop="s38" duration="136"/>
+	<stop busStop="s39" duration="280"/>
+	
+    </vehicle>
+    
+        <inductionLoop id="dt" lane="D2821_0" pos="2" freq="100" file="detect.xml"/>
+        <inductionLoop id="dt1" lane="D2625_0" pos="2" freq="100" file="detect.xml"/>
+        <inductionLoop id="dt2" lane="D2627_0" pos="2" freq="100" file="detect.xml"/>
+        <inductionLoop id="dt3" lane="D2829_0" pos="2" freq="100" file="detect.xml"/>
+        <inductionLoop id="dt4" lane="D2928_0" pos="2" freq="100" file="detect.xml"/>
+        <inductionLoop id="dt5" lane="D927_0" pos="2" freq="100" file="detect.xml"/>
+        <inductionLoop id="dt6" lane="D32_0" pos="2" freq="100" file="detect.xml"/>
+</additional>
+	

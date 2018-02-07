@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="C:\Program Files (x86)\DLR\Sumo\data\xsd\connections_file.xsd">
+    <!-- Routes for Vehicle 0 
+		D21 D92 D98 D87 D715 D1514 D146 D65 D513 D1319 D1920 D2026 D2620 D2016 D168 D89 D92 D21
+	-->
+	<connection from="D12" to="D29" fromLane="0" toLane="0"/>
+	<connection from="D29" to="D98" fromLane="0" toLane="0"/>
+	<connection from="D98" to="D87" fromLane="0" toLane="0"/>
+	<connection from="D87" to="D715" fromLane="0" toLane="0"/>
+	<connection from="D715" to="D1514" fromLane="0" toLane="0"/>
+	<connection from="D1514" to="D146" fromLane="0" toLane="0"/>
+	<connection from="D146" to="D65" fromLane="0" toLane="0"/>
+	<connection from="D65" to="D513" fromLane="0" toLane="0"/>
+	<connection from="D513" to="D1319" fromLane="0" toLane="0"/>
+	<connection from="D1319" to="D1920" fromLane="0" toLane="0"/>
+	<connection from="D1920" to="D2026" fromLane="0" toLane="0"/>
+	<connection from="D2026" to="D2620" fromLane="0" toLane="0"/>
+	<connection from="D2620" to="D2016" fromLane="0" toLane="0"/>
+	<connection from="D2016" to="D168" fromLane="0" toLane="0"/>
+	<connection from="D168" to="D89" fromLane="0" toLane="0"/>
+	<connection from="D89" to="D92" fromLane="0" toLane="0"/>
+	<connection from="D92" to="D21" fromLane="0" toLane="0"/>
+	
+	
+	<!-- Routes for Vehicle 1
+		D43 D312 D1218 D1817 D1711 D1110 D109 D910 D1021 D2128 D2821 D2122 D2223 D2324 D2423 D2318 D1812 D123 D34
+	-->
+	<connection from="D43" to="D312" fromLane="0" toLane="0"/>
+	<connection from="D312" to="D1218" fromLane="0" toLane="0"/>
+	<connection from="D1218" to="D1817" fromLane="0" toLane="0"/>
+	<connection from="D1817" to="D1711" fromLane="0" toLane="0"/>
+	<connection from="D1711" to="D1110" fromLane="0" toLane="0"/>
+	<connection from="D1110" to="D109" fromLane="0" toLane="0"/>
+	<connection from="D109" to="D910" fromLane="0" toLane="0"/>
+	<connection from="D910" to="D1021" fromLane="0" toLane="0"/>
+	<connection from="D1021" to="D2128" fromLane="0" toLane="0"/>
+	<connection from="D2128" to="D2821" fromLane="0" toLane="0"/>
+	<connection from="D2821" to="D2122" fromLane="0" toLane="0"/>
+	<connection from="D2122" to="D2223" fromLane="0" toLane="0"/>
+	<connection from="D2223" to="D2324" fromLane="0" toLane="0"/>
+	<connection from="D2324" to="D2423" fromLane="0" toLane="0"/>
+	<connection from="D2423" to="D2318" fromLane="0" toLane="0"/>
+	<connection from="D2318" to="D1812" fromLane="0" toLane="0"/>
+	<connection from="D1812" to="D123" fromLane="0" toLane="0"/>
+	<connection from="D123" to="D34" fromLane="0" toLane="0"/>
+	
+	<!-- Routes for Vehicle 2 
+		D43 D32 D29 D927 D2726 D2625 D2526 D2627 D2728 D2829 D2928 D2827 D279 D92 D23 D34
+	-->
+	<connection from="D43" to="D32" fromLane="0" toLane="0"/>
+	<connection from="D32" to="D29" fromLane="0" toLane="0"/>
+	<connection from="D29" to="D927" fromLane="0" toLane="0"/>
+	<connection from="D927" to="D2726" fromLane="0" toLane="0"/>
+	<connection from="D2726" to="D2625" fromLane="0" toLane="0"/>
+	<connection from="D2625" to="D2526" fromLane="0" toLane="0"/>
+	<connection from="D2526" to="D2627" fromLane="0" toLane="0"/>
+	<connection from="D2627" to="D2728" fromLane="0" toLane="0"/>
+	<connection from="D2728" to="D2829" fromLane="0" toLane="0"/>
+	<connection from="D2829" to="D2928" fromLane="0" toLane="0"/>
+	<connection from="D2928" to="D2827" fromLane="0" toLane="0"/>
+	<connection from="D2827" to="D279" fromLane="0" toLane="0"/>
+	<connection from="D279" to="D92" fromLane="0" toLane="0"/>
+	<connection from="D92" to="D23" fromLane="0" toLane="0"/>
+	<connection from="D23" to="D34" fromLane="0" toLane="0"/>
+	
+</connections>
